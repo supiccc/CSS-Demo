@@ -1,0 +1,59 @@
+html {
+    background-color: #34495e;
+}
+body {
+    width: 70%;
+    margin: 0 auto;
+    color: #333;
+}
+
+div {
+    border: 10px solid #333;
+    margin: 10px 0 0 0;
+    overflow: auto;
+}
+
+img {
+    height: 15%;
+    width: 15%;
+    margin: 10px 30px 10px 10px;
+}
+
+/*float-left*/
+.float-left>img {
+    float: left;
+}
+
+/*双列布局*/
+.first-column {
+    border: 0;
+    width: 48%;
+    float: left;
+}
+.second-column {
+    border: 0;
+    width: 48%;
+    float: right;
+}
+
+/*三列*/
+.three-column>.first-column {
+    border: 0;
+    width: 30%;
+    float: left;
+}
+.three-column>.second-column {
+    border: 0;
+    width: 30%;
+    margin-left: 4%; 
+    float: left;
+}
+.three-column>.third-column {
+    border: 0;
+    width: 32%;
+    float: right;
+}
+.float-clear {
+    clear: both;
+    text-align: center;
+}

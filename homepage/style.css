@@ -1,0 +1,104 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-family:'Regencieaa827ca7519114';
+  line-height: 1.7em;
+  letter-spacing: 0.1em;
+  word-spacing: 0.2em;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 25%;
+}
+
+nav {
+  float: left;
+  width: 25%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+  text-align: center;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+@font-face {
+    font-family: 'COCOGOOSEaa802539319114';
+    src: url('http://cdn.webfont.youziku.com/webfonts/nomal/102676/47031/591741cdf629d80ff84639c4.gif?r=43089998012');
+    src: url('http://cdn.webfont.youziku.com/webfonts/nomal/102676/47031/591741cdf629d80ff84639c4.gif?r=43089998012?#iefix') format('embedded-opentype'),
+         url('http://cdn.webfont.youziku.com/webfonts/nomal/102676/47031/591741cdf629d80ff84639c4.bmp?r=43089998012') format('woff'),
+         url('http://cdn.webfont.youziku.com/webfonts/nomal/102676/47031/591741cdf629d80ff84639c4.jpg?r=43089998012') format('truetype'),     url('//cdn.webfont.youziku.com/webfonts/nomal/102676/47031/591741cdf629d80ff84639c4.png#COCOGOOSE') format('svg');   \
+}
+@font-face {
+    font-family: 'Regencieaa827ca7519114';
+    src: url('http://cdn.webfont.youziku.com/webfonts/nomal/102676/46721/59174b64f629d80ff84639c6.gif?r=43092453465');
+    src: url('http://cdn.webfont.youziku.com/webfonts/nomal/102676/46721/59174b64f629d80ff84639c6.gif?r=43092453465?#iefix') format('embedded-opentype'),
+         url('http://cdn.webfont.youziku.com/webfonts/nomal/102676/46721/59174b64f629d80ff84639c6.bmp?r=43092453465') format('woff'),     
+         url('http://cdn.webfont.youziku.com/webfonts/nomal/102676/46721/59174b64f629d80ff84639c6.jpg?r=43092453465') format('truetype'),
+         url('http://cdn.webfont.youziku.com/webfonts/nomal/102676/46721/59174b64f629d80ff84639c6.png#Regencie') format('svg');   
+}
+h1 {
+    font-family:'COCOGOOSEaa802539319114';
+    letter-spacing: 0.35em;
+}
+h2 {
+    font-family:'COCOGOOSEaa802539319114';
+}
+
+section > h2 + p {
+   text-indent: 20px;
+}
+
+a:link {
+  color: #a66;
+}
+
+a:visited {
+  color: #a99;
+}
+
+a:hover {
+  color: #a9c;
+  text-decoration: none;
+}
+
+li {
+  line-height: 2.3em;
+}
+.nav-li {
+  border: 1px solid #a66;
+  text-align: center;
+  list-style-type:none;
+  margin: 30px;
+  padding: 15px;
+}
+
+.nav-li > a {
+  text-decoration: none;
+}
