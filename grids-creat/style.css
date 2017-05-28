@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.wrapper1 {
+  width: 980px;  
+  padding-right: 20px;
+  margin: 0 auto;
+}
+.row {
+    clear: both;
+}
+.wrapper1  .col {
+  float: left;
+  margin-left: 20px;
+  width: 60px;
+  text-align: center;
+  background: #335;
+  color: wheat;
+}
+
+/* Two column widths (120px) plus one gutter width (20px) */
+.wrapper1 .col-2 { width: 140px; }
+/* Three column widths (180px) plus two gutter widths (40px) */
+.wrapper1 .col-3 { width: 220px; }
+/* And so on... */
+.wrapper1 .col-4 { width: 300px; }
+.wrapper1 .col-5 { width: 380px; }
+.wrapper1 .col-6 { width: 460px; }
+.wrapper1 .col-7 { width: 540px; }
+.wrapper1 .col-8 { width: 620px; }
+.wrapper1 .col-9 { width: 700px; }
+.wrapper1 .col-10 { width: 780px; }
+.wrapper1 .col-11 { width: 860px; }
+.wrapper1 .col-12 { width: 940px; }
+
+/*流体网格*/
+.wrapper2 {
+    width: 90%;
+    max-width: 980px;
+    margin: 0 auto;
+    padding-right: 2.08333333%;
+}
+
+.wrapper2 .col {
+    float: left;
+    margin-left: 2.08333333%;
+    width: 6.25%;
+    background: #335;
+    color: wheat;    
+    text-align: center;
+}
+
+/* Two column widths (12.5%) plus one gutter width (2.08333333%) */
+.wrapper2 .col-2 { width: 14.58333333%; }
+/* Three column widths (18.75%) plus two gutter widths (4.1666666) */
+.wrapper2 .col-3 { width: 22.91666666%; }
+/* And so on... */
+.wrapper2 .col-4 { width: calc((6.25%*4) + (2.08333333%*3)); }
+.wrapper2 .col-5 { width: 39.58333332%; }
+.wrapper2 .col-6 { width: 47.91666665%; }
+.wrapper2 .col-7 { width: 56.24999998%; }
+.wrapper2 .col-8 { width: 64.58333331%; }
+.wrapper2 .col-9 { width: 72.91666664%; }
+.wrapper2 .col-10 { width: 81.24999997%; }
+.wrapper2 .col-11 { width: 89.5833333%; }
+.wrapper2 .col-12{ width: 97.91666663%; }
+
+/*偏移*/
+.wrapper2 .offset-by-one {
+  margin-left: 10.41666666%;
+}
